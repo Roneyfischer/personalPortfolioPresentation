@@ -125,3 +125,34 @@
 .nav {
   position: fixed;
 }
+/* @keyframes go-back-x {
+  from {
+    transform: translateX(50vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+} */
+
+@keyframes kick-y {
+  0% {
+    transform: translateY(-40%);
+  }
+
+  10% {
+    transform: translateY(0%);
+  }
+
+  20% {
+    transform: translateY(-3%);
+  }
+  30% {
+    transform: translateY(0%);
+  }
+  40% {
+    transform: translateY(-1%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+}
