@@ -1,0 +1,114 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+.col100 {
+  width: 100%;
+  display: inline-flex;
+}
+.col70 {
+  width: 70%;
+  display: inline-flex;
+}
+.col50 {
+  width: 50%;
+
+  display: inline-flex;
+}
+.col25 {
+  width: 25%;
+  display: inline-flex;
+}
+.col20 {
+  width: 20%;
+  display: inline-flex;
+}
+.col15 {
+  width: 15%;
+  display: inline-flex;
+}
+
+.col10 {
+  width: 10%;
+  display: inline-block;
+}
+.inline-flex {
+  display: inline-flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+.colorWhite {
+  color: white;
+}
+.colorBlack {
+  color: black;
+}
+
+.defaultFont {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title {
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+.padding1rem {
+  padding: 1rem;
+}
+
+.contentBox {
+  display: block;
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+}
+
+.textContent {
+  padding: 0rem;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.textIndent {
+  text-indent: 2rem;
+}
+
+.paddingRight1rem {
+  padding-right: 1rem;
+}
+.paddingLeft1rem {
+  padding-left: 1rem;
+}
+
+.paddingRight2rem {
+  padding-right: 2rem;
+}
+.paddingLeft1rem {
+  padding-left: 1rem;
+}
