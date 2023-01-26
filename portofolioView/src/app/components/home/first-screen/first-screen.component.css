@@ -1,5 +1,5 @@
 .subBody {
-  background-image: url("./../../../../assets/pcCoffe.jpg");
+  background-image: url("./../../../../assets/pcCoffeBlack.png");
   background-attachment: fixed;
   height: 100vh;
   width: 100%;
@@ -27,23 +27,23 @@
   text-transform: uppercase;
   height: min-content;
   width: max-content;
-  top: 40%;
+  top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
 
   font-weight: bold;
-  color: rgb(71, 69, 69);
-  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
   /* background-color: brown; */
 }
 
 .abstract {
-  font-size: 20px;
-  color: rgb(55, 0, 255);
+  font-size: 25px;
+  color: rgb(221, 212, 255);
+  padding-top: 1rem;
 }
 
 .secondDiv {
-  position: absolute;
   background-color: #0a0a36;
   padding: 10000000rem;
   height: 100vh;
@@ -52,14 +52,37 @@
   padding: 0;
 }
 
+.treeDiv {
+  background-color: #ffffff;
+  padding: 10000000rem;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .aboutMeCol {
-  padding-top: 2rem;
+  padding-top: 0rem;
 }
 .internalSecondDiv {
+  display: inline-flex;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  padding-top: 10rem;
+}
+
+.internalTreeDiv {
   display: inline-flex;
   padding-left: 10rem;
   padding-right: 10rem;
   padding-top: 10rem;
+}
+
+.profileImg {
+  position: relative;
+  padding-right: 10rem;
+  top: 50%;
+  transform: translate(0%, 50%);
 }
 
 .hardSkills {
@@ -73,7 +96,7 @@
   border: 0;
   border-left: 0.2rem;
   border-style: solid;
-  border-color: rgb(132, 133, 158);
+  border-color: rgb(78, 79, 99);
 
   text-align: center;
 }
@@ -81,7 +104,7 @@
 .icon {
   /* background-image: url(""); */
   display: inline-flexbox;
-  background-color: hwb(0 100% 0%);
+  background-color: hwb(214 66% 0%);
 
   color: rgb(46, 45, 45);
 
@@ -100,7 +123,7 @@
 
 .icon:hover {
   /* background-image: url(""); */
-  background-color: hsl(236, 83%, 93%);
+  background-color: hwb(214 47% 3%);
 
   color: rgb(0, 0, 0);
 
