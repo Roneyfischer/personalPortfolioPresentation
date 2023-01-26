@@ -96,7 +96,7 @@
 .textContent {
   padding: 0rem;
   text-align: justify;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .textIndent {
@@ -115,4 +115,13 @@
 }
 .paddingLeft1rem {
   padding-left: 1rem;
+}
+.highlightText {
+  font-weight: bold;
+  color: #4848f7;
+  /* text-transform: uppercase; */
+  /* font-size: 18px; */
+}
+.nav {
+  position: fixed;
 }
