@@ -1,3 +1,6 @@
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css?ngGlobalStyle ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /* You can add global styles to this file, and also import other style files */
 * {
   margin: 0;
@@ -62,9 +65,6 @@
 .black {
   background-color: black;
 }
-.orange {
-  background-color: orange;
-}
 
 .colorWhite {
   color: white;
@@ -79,29 +79,15 @@
 
 .title {
   position: relative;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  padding: 1rem;
-}
-.subTitle {
-  position: relative;
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   padding: 1rem;
 }
 
-.textContent {
-  padding: 0rem;
-  text-align: justify;
-  font-size: 22px;
-}
-
-.textIndent {
-  text-indent: 2rem;
+.padding1rem {
+  padding: 1rem;
 }
 
 .contentBox {
@@ -112,8 +98,14 @@
   width: 100%;
 }
 
-.padding1rem {
-  padding: 1rem;
+.textContent {
+  padding: 0rem;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.textIndent {
+  text-indent: 2rem;
 }
 
 .paddingRight1rem {
@@ -167,3 +159,6 @@
     transform: translateY(0%);
   }
 }
+
+
+/*# sourceMappingURL=styles.css.map*/
