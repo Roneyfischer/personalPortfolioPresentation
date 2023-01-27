@@ -37,6 +37,7 @@
   width: 10%;
   display: inline-block;
 }
+
 .inline-flex {
   display: inline-flex;
 }
@@ -49,6 +50,7 @@
   display: block;
   width: 100%;
 }
+
 .red {
   background-color: red;
 }
@@ -74,7 +76,7 @@
 
 .title {
   position: relative;
-  font-size: 20px;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -118,13 +120,11 @@
 }
 .highlightText {
   font-weight: bold;
-  color: #4848f7;
+
   /* text-transform: uppercase; */
   /* font-size: 18px; */
 }
-.nav {
-  position: fixed;
-}
+
 /* @keyframes go-back-x {
   from {
     transform: translateX(50vw);
