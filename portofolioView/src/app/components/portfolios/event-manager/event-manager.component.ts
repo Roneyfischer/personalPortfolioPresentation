@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-deluxe-rewards',
-  templateUrl: './deluxe-rewards.component.html',
-  styleUrls: ['./deluxe-rewards.component.css'],
+  selector: 'app-event-manager',
+  templateUrl: './event-manager.component.html',
+  styleUrls: ['./event-manager.component.css'],
 })
-export class DeluxeRewardsComponent {
+export class EventManagerComponent {
   slideIndex = 1;
   ngOnInit() {
     this.showSlides(this.slideIndex);
@@ -24,9 +24,9 @@ export class DeluxeRewardsComponent {
   showSlides(n: number) {
     let i;
     let slides: any = document.getElementsByClassName(
-      'deluxeRewardsPortfolioSlides'
+      'eventManagerPortfolioSlides'
     );
-    let dots = document.getElementsByClassName('deluxeRewardsPortfolioDot');
+    let dots = document.getElementsByClassName('eventManagerPortfolioDot');
     if (n > slides.length) {
       this.slideIndex = 1;
     }

@@ -3,6 +3,22 @@
   margin: 0;
   padding: 0;
 }
+
+.div {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: 0;
+  position: static;
+  display: block;
+  color: #fffeeb;
+
+  height: calc(100%);
+  width: calc(100%);
+  box-sizing: border-box;
+}
+
 .col100 {
   width: 100%;
   display: inline-flex;
@@ -87,7 +103,7 @@
 }
 .subTitle {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -166,4 +182,25 @@
   50% {
     transform: translateY(0%);
   }
+}
+
+.portfolioSlideImage {
+  position: relative;
+  display: inline-flex;
+  /* max-width: 50rem;
+  max-height: 50rem; */
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  width: 30rem;
+  height: 15rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
 }

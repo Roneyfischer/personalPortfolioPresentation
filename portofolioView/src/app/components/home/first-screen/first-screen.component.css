@@ -1,22 +1,15 @@
 .subBody {
-  position: absolute;
+  position: static;
   background-image: url("./../../../../assets/pcCoffeBlack.png");
   background-attachment: fixed;
   height: 100vh;
   width: 100%;
-
+  background-color: orange;
   margin: 0;
   padding: 0;
 }
 
 .homeDiv {
-  position: relative;
-
-  opacity: 100%;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
   animation: kick-y 3s;
 }
 
@@ -44,12 +37,6 @@
 .aboutMeDiv {
   background-color: #42355b;
   color: #fffeeb;
-
-  padding: 10000000rem;
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 .internalAboutMeDiv {
   display: inline-block;
@@ -58,7 +45,6 @@
   box-sizing: border-box;
   padding-top: 10rem;
   margin: 0;
-  width: 100%;
 }
 
 .aboutMeCol {
@@ -114,7 +100,7 @@
 
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  /* word-wrap: break-word; */
+
   padding: 1rem;
   margin: 0.8rem;
   text-align: center;
@@ -126,7 +112,6 @@
 }
 
 .icon:hover {
-  /* background-image: url(""); */
   background-color: hwb(214 47% 3%);
 
   color: rgb(0, 0, 0);
@@ -202,50 +187,45 @@ ul li::before {
 }
 
 .projectsDiv {
-  background-color: #2b2b2b;
-  color: #fffeeb;
-
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: left;
-  text-align: center;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+  background-color: rgb(54, 54, 54);
+  /* background-color: blue; */
 }
+.projectsTitle {
+  position: relative;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .internalProjectsDiv {
   position: relative;
   display: grid;
-  background-color: red;
-  row-gap: 1rem;
-  column-gap: 1rem;
 
-  padding: 10rem;
-  padding-top: 15rem; /*+5 pra barra de menu*/
+  opacity: 100%;
+
+  row-gap: 2rem;
+  column-gap: 13rem;
+
+  max-width: 100%;
+  height: min-content;
+
+  padding: 0;
   margin: 0;
-  color: black;
-  width: calc(100% - 20rem);
-  height: calc(100% - 25rem);
 
-  align-items: center;
+  justify-content: center;
 }
 
-.flexBox img {
-  position: relative;
-  max-width: 30rem;
-  align-content: center;
-  text-align: center;
-  align-items: center;
-
-  width: auto;
-  height: auto;
-}
 .flexBox:hover {
+  cursor: pointer;
   transform: scale(1.1);
   height: min-content;
   width: min-content;
 }
 
 #project1 {
+  position: relative;
   grid-column: 1;
   grid-row: 1;
 
@@ -253,27 +233,81 @@ ul li::before {
   width: min-content;
 }
 #project2 {
+  position: relative;
   grid-column: 2;
   grid-row: 1;
   height: min-content;
   width: min-content;
 }
 #project3 {
-  grid-column: 3;
-  grid-row: 1;
-  height: min-content;
-  width: min-content;
-}
-
-#project4 {
+  position: relative;
   grid-column: 1;
   grid-row: 2;
   height: min-content;
   width: min-content;
 }
-#project5 {
+#project4 {
+  position: relative;
   grid-column: 2;
   grid-row: 2;
   height: min-content;
   width: min-content;
+}
+
+.title {
+  display: block;
+}
+.contactDiv {
+  background-color: red;
+}
+
+.internalContactDiv {
+  background-color: blue;
+
+  height: 100%;
+  margin: 0;
+
+  max-width: 100%;
+  height: min-content;
+
+  padding: 0;
+  margin: 0;
+
+  justify-content: center;
+}
+
+.contacTitle {
+  position: relative;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contactDivGrid {
+  display: grid;
+  column-gap: 1rem;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: orange;
+  grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+}
+
+.contactDivLeft {
+  /* position: relative; */
+  display: block;
+  grid-column: 1;
+  grid-row: 1;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.contactDivRight {
+  /* position: relative; */
+  display: block;
+  grid-column: 2;
+  grid-row: 1;
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }

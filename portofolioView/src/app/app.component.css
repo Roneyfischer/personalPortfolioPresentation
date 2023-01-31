@@ -2,3 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+.body {
+  position: absolute;
+  width: 50vw;
+  background-color: blueviolet;
+}
+
+.teste {
+  position: sticky;
+  top: 0;
+}

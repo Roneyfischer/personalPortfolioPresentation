@@ -10,7 +10,7 @@
 }
 
 /* Hide the images by default */
-.deluxeRewardsPortfolioSlides {
+.eventManagerPortfolioSlides {
   display: none;
 }
 
@@ -69,7 +69,7 @@
 }
 
 /* The dots/bullets/indicators */
-.deluxeRewardsPortfolioDot {
+.eventManagerPortfolioDot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -81,7 +81,7 @@
 }
 
 .active,
-.deluxeRewardsPortfolioDot:hover {
+.eventManagerPortfolioDot:hover {
   background-color: #717171;
 }
 
